@@ -1,11 +1,12 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> 
-      Hi welcome
+  <div>
 
-    </div>
     <router-view/>
+
+
+      HyeBin site
+
+
   </div>
 </template>
 
