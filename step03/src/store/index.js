@@ -5,6 +5,8 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    user_id : "",
+    user_idx : -1,
 
     students: [
       {

@@ -77,7 +77,7 @@
 export default {
     data(){
         return{
-        student : this.$store.state.students[0]
+        student : this.$store.state.students[this.$store.state.user_idx]
         }
     },
     methods:{
